@@ -12,9 +12,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', '_s_ee_ee' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '_s_ee_ee' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', '_s_ee' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '_s_ee' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', '_s_ee_ee' ), '_s_ee_ee', '<a href="http://eventespresso.com" rel="designer">Event Espresso</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', '_s_ee' ), '_s_ee', '<a href="http://eventespresso.com" rel="designer">Event Espresso</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

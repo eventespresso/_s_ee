@@ -24,46 +24,46 @@ get_header(); ?>
 							single_tag_title();
 
 						elseif ( is_author() ) :
-							printf( __( 'Author: %s', '_s_ee_ee' ), '<span class="vcard">' . get_the_author() . '</span>' );
+							printf( __( 'Author: %s', '_s_ee' ), '<span class="vcard">' . get_the_author() . '</span>' );
 
 						elseif ( is_day() ) :
-							printf( __( 'Day: %s', '_s_ee_ee' ), '<span>' . get_the_date() . '</span>' );
+							printf( __( 'Day: %s', '_s_ee' ), '<span>' . get_the_date() . '</span>' );
 
 						elseif ( is_month() ) :
-							printf( __( 'Month: %s', '_s_ee_ee' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', '_s_ee_ee' ) ) . '</span>' );
+							printf( __( 'Month: %s', '_s_ee' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', '_s_ee' ) ) . '</span>' );
 
 						elseif ( is_year() ) :
-							printf( __( 'Year: %s', '_s_ee_ee' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', '_s_ee_ee' ) ) . '</span>' );
+							printf( __( 'Year: %s', '_s_ee' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', '_s_ee' ) ) . '</span>' );
 
 						elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', '_s_ee_ee' );
+							_e( 'Asides', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
-							_e( 'Galleries', '_s_ee_ee');
+							_e( 'Galleries', '_s_ee');
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', '_s_ee_ee');
+							_e( 'Images', '_s_ee');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', '_s_ee_ee' );
+							_e( 'Videos', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', '_s_ee_ee' );
+							_e( 'Quotes', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', '_s_ee_ee' );
+							_e( 'Links', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-status' ) ) :
-							_e( 'Statuses', '_s_ee_ee' );
+							_e( 'Statuses', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-audio' ) ) :
-							_e( 'Audios', '_s_ee_ee' );
+							_e( 'Audios', '_s_ee' );
 
 						elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
-							_e( 'Chats', '_s_ee_ee' );
+							_e( 'Chats', '_s_ee' );
 
 						else :
-							_e( 'Archives', '_s_ee_ee' );
+							_e( 'Archives', '_s_ee' );
 
 						endif;
 					?>
